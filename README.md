@@ -1,6 +1,3 @@
-# android-minesweeper
-
-Minesweeper clone written with Kotlin 1.3 for Android.
 
 ## Features
 
@@ -20,10 +17,3 @@ Minesweeper clone written with Kotlin 1.3 for Android.
 If you reveal a mine, you lose.
 
 When all safe fields are revealed, you win!
-
-## Screenshots
-
-![](https://i.imgur.com/wKYUtmQ.png)
-![](https://i.imgur.com/EXRAVLV.png)
-![](https://i.imgur.com/xoa8KP8.png)
-![](https://i.imgur.com/4kUnLjP.png)
