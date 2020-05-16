@@ -1,0 +1,35 @@
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:persistent="false">
+    <PreferenceCategory app:title="@string/config">
+        <SwitchPreferenceCompat
+            app:key="safe"
+            app:summary="@string/summary_safe_first"
+            app:title="@string/config_safe_first" />
+
+        <SwitchPreferenceCompat
+            app:key="chord"
+            app:summary="@string/summary_chord"
+            app:title="@string/config_chord" />
+
+        <SwitchPreferenceCompat
+            app:key="invert"
+            app:summary="@string/summary_invert"
+            app:title="@string/config_invert" />
+
+        <PreferenceCategory app:title="Board settings">
+            <Preference
+                app:key="width"
+                app:title="@string/config_columns" />
+            <Preference
+                app:key="height"
+                app:title="@string/config_rows" />
+            <Preference
+                app:key="mines"
+                app:title="@string/config_mines" />
+            <Preference
+                app:key="set_preset"
+                app:summary="@string/summary_set_preset"
+                app:title="@string/action_set_preset" />
+        </PreferenceCategory>
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>
