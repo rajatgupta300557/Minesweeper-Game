@@ -1,4 +1,4 @@
-package me.stuhlmeier.minesweeper.ui.settings
+package com.rajat.minesweeper.ui.settings
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -8,8 +8,8 @@ import android.widget.NumberPicker
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.DialogFragment
-import me.stuhlmeier.minesweeper.MAX_SIZE
-import me.stuhlmeier.minesweeper.R
+import com.rajat.minesweeper.MAX_SIZE
+import com.rajat.minesweeper.R
 
 class NumberPickerDialogFragment(
     val isTextBased: Boolean,
