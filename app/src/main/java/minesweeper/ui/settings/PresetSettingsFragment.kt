@@ -1,4 +1,4 @@
-package me.stuhlmeier.minesweeper.ui.settings
+package com.rajat.minesweeper.ui.settings
 
 import android.os.Bundle
 import androidx.core.content.edit
@@ -6,10 +6,10 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.get
-import me.stuhlmeier.minesweeper.PREFS_NAME
-import me.stuhlmeier.minesweeper.R
-import me.stuhlmeier.minesweeper.game.Preset
-import me.stuhlmeier.minesweeper.putPreset
+import com.rajat.minesweeper.PREFS_NAME
+import com.rajat.minesweeper.R
+import com.rajat.minesweeper.game.Preset
+import com.rajat.minesweeper.putPreset
 
 class PresetSettingsFragment : PreferenceFragmentCompat() {
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
