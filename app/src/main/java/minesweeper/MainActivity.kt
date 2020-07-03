@@ -1,4 +1,4 @@
-package me.stuhlmeier.minesweeper
+package com.rajat.minesweeper
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
