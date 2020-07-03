@@ -1,4 +1,4 @@
-package me.stuhlmeier.minesweeper.ui.game
+package com.rajat.minesweeper.ui.game
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -12,15 +12,15 @@ import android.view.View
 import android.widget.OverScroller
 import androidx.core.graphics.drawable.toBitmap
 import androidx.core.view.GestureDetectorCompat
-import me.stuhlmeier.minesweeper.Point
-import me.stuhlmeier.minesweeper.R
-import me.stuhlmeier.minesweeper.eightNeighbors
-import me.stuhlmeier.minesweeper.game.Board
-import me.stuhlmeier.minesweeper.game.GameSettings
-import me.stuhlmeier.minesweeper.game.moves.ChordMove
-import me.stuhlmeier.minesweeper.game.moves.FloodRevealMove
-import me.stuhlmeier.minesweeper.game.moves.ToggleFlagMove
-import me.stuhlmeier.minesweeper.roundUp
+import com.rajat.minesweeper.Point
+import com.rajat.minesweeper.R
+import com.rajat.minesweeper.eightNeighbors
+import com.rajat.minesweeper.game.Board
+import com.rajat.minesweeper.game.GameSettings
+import com.rajat.minesweeper.game.moves.ChordMove
+import com.rajat.minesweeper.game.moves.FloodRevealMove
+import com.rajat.minesweeper.game.moves.ToggleFlagMove
+import com.rajat.minesweeper.roundUp
 import kotlin.math.ceil
 import kotlin.math.floor
 import kotlin.math.max
