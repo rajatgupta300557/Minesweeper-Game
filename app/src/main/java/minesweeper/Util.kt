@@ -1,11 +1,11 @@
-package me.stuhlmeier.minesweeper
+package com.rajat.minesweeper
 
 import android.content.SharedPreferences
-import me.stuhlmeier.minesweeper.game.Board
-import me.stuhlmeier.minesweeper.game.Preset
+import com.rajat.minesweeper.game.Board
+import com.rajat.minesweeper.game.Preset
 import kotlin.math.ceil
 
-const val PREFS_NAME = "me.stuhlmeier.minesweeper:preferences"
+const val PREFS_NAME = "com.rajat.minesweeper:preferences"
 
 const val KEY_BOARD = "minesweeper:state:board"
 
