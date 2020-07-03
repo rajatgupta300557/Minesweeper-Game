@@ -1,4 +1,4 @@
-package me.stuhlmeier.minesweeper.ui.game
+package com.rajat.minesweeper.ui.game
 
 import android.app.AlertDialog
 import android.content.Context
@@ -9,13 +9,13 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
 import kotlinx.android.synthetic.main.fragment_game.*
-import me.stuhlmeier.minesweeper.KEY_BOARD
-import me.stuhlmeier.minesweeper.PREFS_NAME
-import me.stuhlmeier.minesweeper.R
-import me.stuhlmeier.minesweeper.game.Board
-import me.stuhlmeier.minesweeper.game.GameSettings
-import me.stuhlmeier.minesweeper.game.generators.FieldGenerationArguments
-import me.stuhlmeier.minesweeper.game.generators.RandomFieldGenerator
+import com.rajat.minesweeper.KEY_BOARD
+import com.rajat.minesweeper.PREFS_NAME
+import com.rajat.minesweeper.R
+import com.rajat.minesweeper.game.Board
+import com.rajat.minesweeper.game.GameSettings
+import com.rajat.minesweeper.game.generators.FieldGenerationArguments
+import com.rajat.minesweeper.game.generators.RandomFieldGenerator
 
 class GameFragment : Fragment() {
     private val prefs by lazy {
