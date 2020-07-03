@@ -1,4 +1,4 @@
-package me.stuhlmeier.minesweeper.ui.settings
+package com.rajat.minesweeper.ui.settings
 
 import android.os.Bundle
 import androidx.core.content.edit
@@ -7,7 +7,7 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
 import androidx.preference.get
-import me.stuhlmeier.minesweeper.*
+import com.rajat.minesweeper.*
 import kotlin.math.min
 
 class PreferencesFragment : PreferenceFragmentCompat() {
